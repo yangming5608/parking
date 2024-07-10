@@ -13,11 +13,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.3.7.RELEASE</spring-boot.version>
-
         <satoken.version>1.28.0</satoken.version>
         <druid.version>1.2.8</druid.version>
         <fastjson.version>1.2.75</fastjson.version>
-        <mysql-connector.version>8.0.25</mysql-connector.version>
+        <mysql-connector.version>8.0.30</mysql-connector.version>
         <mybatis-plus.version>3.4.0</mybatis-plus.version>
         <velocity.version>2.3</velocity.version>
         <easyexcel.version>3.0.5</easyexcel.version>
@@ -124,6 +123,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
